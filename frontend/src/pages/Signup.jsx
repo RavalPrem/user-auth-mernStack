@@ -57,7 +57,7 @@ const Signup = () => {
         handleError(message)
       }
 
-      console.log(result)
+      // console.log(result)
     } catch (error) {
         handleError(error)
     }
