@@ -36,7 +36,7 @@ const Home = () => {
       const response = await fetch(url,headers)
 
       const result = await response.json()
-      console.log(result)
+      // console.log(result)
       setproducts(result)
 
     } catch (error) {
