@@ -30,7 +30,7 @@ const Login = () => {
     }
 
     try {
-      const url = "http://localhost:8080/auth/login"
+      const url = "https://user-auth-mern-stack-api.vercel.app/auth/login"
 
       const response = await fetch(url, {
         method: "POST",

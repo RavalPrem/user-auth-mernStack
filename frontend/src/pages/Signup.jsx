@@ -31,7 +31,7 @@ const Signup = () => {
     }
 
     try {
-      const url = "http://localhost:8080/auth/signup"
+      const url = "https://user-auth-mern-stack-api.vercel.app/auth/signup"
 
       const response = await fetch(url, {
         method : "POST",
